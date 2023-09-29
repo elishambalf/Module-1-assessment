@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Personal website</title>
+        <meta name="description" content="Personal website">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="Elisha">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="preheader">
+            <div class="logo">
+                <img src="https://i.pinimg.com/originals/e6/4c/e4/e64ce4ad6dbbf0de2b16b40b76cb0b3b.jpg" alt="logo"/>
+            </div>
+            <h1><b>Have any Questions?</b></h1>
+            <p>Please fill out the form below with your details, and we will get back to you as soon as we can</p>
+        </div>
+        <div class="container">
+            <div class="title">Contact Us</div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full name</span>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Company Email</span>
+                        <input type="text" placeholder="Enter your email" required>
+                    </div>
+                    <div class="dropdown-list">
+                        <span class="dropdown-list-title">Company Size</span>
+                            <label for=""></label>
+                            <select name="companysize" placeholder="Company Size">
+                                <option value="less50">Less than 50 employees</option>
+                                <option value="50">50-100 employees</option>
+                                <option value="100">100-150 employees</option>
+                                <option value="more150">More than 150 employees</option>
+                            </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Subject</span>
+                        <input type="text" placeholder="Enter the subject of your query" required>
+                    </div>
+                    <div class="input-box full">
+                        <span class="details">Message</span>
+                        <textarea name="message" id="message" class="form-element" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button class="block-button">Submit</button> 
+            </form>
+        </div>
+    </body>
+
+</html>
